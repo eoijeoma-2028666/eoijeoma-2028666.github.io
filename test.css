@@ -1,0 +1,125 @@
+body{
+    background-image: url('dark_wood.png');
+    counter-reset: section
+}
+
+p{
+font-weight: bold;
+color: white;
+font-family: "Arial";
+}
+
+h3{
+color: #FFBC00;
+font-size: 40px;
+font-family: "Passion One";
+margin-bottom: 0px;
+}
+
+li{
+
+}
+
+#Header{
+    border: solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:#8E41D5
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+}
+
+#LeftNav{
+    border: solid 8px black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color:#8E41D5
+}
+
+#Left Nav img{
+
+}
+
+#LeftNav ul{
+}
+
+
+#LeftNav h3{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+}
+
+#Content{
+    border: solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color:#8E41D5
+}
+
+#Content span{
+    color: #FFBC00;
+    font-size: 20px;
+    font-family: "Arial";
+    margin-bottom: 0px;
+}
+
+#Footer{
+    border: solid 8px black;
+    text-align: center;
+    background-color:#8E41D5;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+i{
+    color: #FFBC00;
+}
+
+img {
+    opacity: 0.5;
+  }
+
+img:hover {
+    opacity: 1.0;
+  }
+
+  p::first-letter {
+    color: #FFBC00;
+    font-size: xx-large;
+  }
+
+  /* mouse over link */
+a:hover {
+    color: #FFBC00;
+  }
+
+  div p {
+    background-color: black;
+  }
